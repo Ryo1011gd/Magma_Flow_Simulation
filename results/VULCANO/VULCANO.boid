@@ -1,0 +1,121 @@
+# Sample 
+ParticleDistance		0.005
+LowerDomain			-0.38  -0.45 -0.50
+UpperDomain			1.0  1.8  0.30
+## SUBSTRATE START ##
+#StartCuboid
+    Spacing            0.005
+    Type            4
+    RigidType       6
+    Lower            -0.2  -0.10  -0.40
+    Upper            0.8  0.05  -0.35
+    Velocity        0.0  0.0 0.0
+    Enthalpy        -1.0e7
+    Angle     	     0
+EndCuboid
+#StartCuboid
+    Spacing            0.005
+    Type            4
+    RigidType       6
+    Lower            -0.2  -0.15  -0.40
+    Upper            0.8  -0.10  -0.25
+    Velocity        0.0  0.0 0.0
+    Enthalpy        -1.0e7
+    Angle     	     0
+EndCuboid
+#StartCuboid
+    Spacing            0.005
+    Type            4
+    RigidType       6
+    Lower            -0.2  0.05  -0.40
+    Upper            0.02   0.10  -0.25
+    Velocity        0.0  0.0 0.0
+    Enthalpy        -1.0e7
+    Angle     	     0
+EndCuboid
+#StartCuboid
+    Spacing            0.005
+    Type            4
+    RigidType       6
+    Lower            0.0  0.12  -0.40
+    Upper            0.81  0.17  -0.25
+    Velocity        0.0  0.0 0.0
+    Enthalpy        -1.0e7
+   Angle            10
+EndCuboid
+#StartCuboid
+    Spacing            0.005
+    Type            4
+    RigidType       6
+    Lower            0.8  -0.15  -0.40
+    Upper            0.85  0.22  -0.25
+    Velocity        0.0  0.0 0.0
+    Enthalpy        -1.0e7
+   Angle            0
+EndCuboid
+#StartCuboid
+    Spacing            0.005
+    Type            4
+    RigidType       6
+    Lower            -0.25  -0.15  -0.40
+    Upper            -0.2  0.10  -0.25
+    Velocity        0.0  0.0 0.0
+    Enthalpy        -1.0e7
+   Angle            0
+EndCuboid
+#StartRecboid
+    Spacing            0.005
+    Type            4
+    RigidType       6
+    Lower            0.0  0.05  -0.40
+    Upper            0.8  0.20  -0.35
+    Velocity        0.0  0.0 0.0
+    Enthalpy        -1.0e7
+   Angle            10
+EndRecboid
+## SUBSTRATE END ##
+## CRUCIBLE CORIUM START ##
+StartCyboid
+    Spacing            0.005
+    Type            1
+    RigidType		6
+    Lower           -0.278  -0.148  -0.09
+    Upper            -0.038    0.148  0.05
+    Velocity        0.0  0.0 0.0
+    Enthalpy        -1.0e7
+    Ratio      0.0
+EndCyboid
+StartCyboid
+    Spacing            0.005
+    Type            4
+    RigidType		6
+    Lower            -0.30  -0.15  -0.1
+    Upper            0.00    0.15  0.20
+    Velocity        0.0  0.0 0.0
+    Enthalpy        -1.0e7
+    Ratio      0.90
+EndCyboid
+StartCyboid
+    Spacing            0.005
+    Type            4
+    RigidType		6
+    Lower            -0.30  -0.25  -0.15
+    Upper            0.00  0.25    -0.1
+    Velocity        0.0  0.0 0.0
+	Enthalpy        -1.0e7
+	Ratio      0.18
+EndCyboid
+StartCyboid
+    Spacing            0.005
+    Type            4
+    RigidType		6
+    Lower            -0.20  -0.05  -0.25
+    Upper            -0.10  0.05  -0.15
+    Velocity        0.0  0.0 0.0
+	Enthalpy        -1.0e7
+	Ratio      0.8
+EndCyboid
+## CRUCIBLE END ##
+
+
+
